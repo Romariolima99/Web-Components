@@ -1,0 +1,81 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Euclid Circular A", "Poppins";
+    background: #2a282d;
+    color: #222;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 20px;
+    width: 100%;
+    height: 72px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  }
+  
+  nav a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  nav span {
+    margin-right: 10px;
+  }
+  
+  nav a.active {
+    color: #8f44fd;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 15%;
+    text-align: center;
+  }
+  
+  section:nth-child(2) {
+    background-image: radial-gradient(circle at 50% -20.71%, #00eaff 0, #1497e6 50%, #154d78 100%);
+  }
+  
+  section:nth-child(3) {
+    background-image: radial-gradient(circle at 50% -20.71%, #b9c8ca 0, #b9c7cb 5%, #bac7cc 10%, #bbc7cd 15%, #bcc6cd 20%, #bdc6ce 25%, #bec6ce 30%, #bfc5cf 35%, #c1c5cf 40%, #c2c4ce 45%, #c4c4ce 50%, #c6c4cd 55%, #c7c3cd 60%, #c9c3cc 65%, #cac2cb 70%, #cbc2ca 75%, #cdc2c9 80%, #cec2c7 85%, #cec2c6 90%, #cfc2c5 95%, #d0c2c3 100%);
+  }
+  
+  section:nth-child(4) {
+    background: #2a282d;
+  }
+  
+  p {
+    color: #565656;
+    line-height: 1.8;
+    text-align: left;
+  }
+  
+  section:nth-child(4) h2 {
+    color: rgb(255 255 255 / 96%);
+  }
+  
+  section:nth-child(4) p {
+    color: rgb(255 255 255 / 70%);
+  }
+  
