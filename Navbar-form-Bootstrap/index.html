@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+     
+</head>
+<body>
+
+    <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                <i class="fa fa-home"></i>
+                Home
+                <span class="sr-only">(current)</span>
+                </a>
+            </li>
+           
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-envelope-o">
+                </i>
+                Clientes
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Cadastrar Clientes</a>
+                <a class="dropdown-item" href="#">Inclusão SPC</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Relatorio</a>
+              </div>
+
+
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-envelope-o">
+                </i>
+                Financeiro
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Documentos a receber</a>
+                <a class="dropdown-item" href="#">Gerar Faturas</a>
+                <a class="dropdown-item" href="#">Documentos a pagar</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Relatorios</a>
+              </div>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-envelope-o">
+                  </i>
+                  Estoque
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Cadastrar produtos</a>
+                  <a class="dropdown-item" href="#">Venda de produtos</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Relatorios</a>
+                </div>
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-envelope-o">
+                    </i>
+                    Suportes
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Abrir Suporte</a>
+                    <a class="dropdown-item" href="#">suporte fora de SLA</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Relatorios</a>
+                  </div>
+
+            </li>
+          </ul>
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa fa-bell">
+                  <span class="badge badge-danger">11</span>
+                </i>
+                Tarefas pendentes
+              </a>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+
+
+
+                     <!------ Inicio do formulario ---------->
+                    
+                    <div class="p-3 mb-2 bg-primary text-white">Cadastrar cliente</div>
+
+      
+                     <form action="" method="POST">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputName">Nome</label>
+                                <input type="text" id="inputName" class="form-control" placeholder="Digite Seu nome" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputSurname">Sobrenome</label>
+                                <input type="text" class="form-control" id="inputSurname" placeholder="Sobrenome" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu e-mail" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Telefone</label>
+                                <input type="tel" class="form-control" id="Telefone" placeholder="Telefone" required>
+                            </div>
+                        </div>
+
+                          
+                    <div class="p-3 mb-2 bg-primary text-white">Endereço</div>
+
+                        <div class="form-group">
+                            <label for="inputAddress">Endereço</label>
+                            <input type="text" class="form-control" id="logradouro" placeholder="Endereço" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Bairro</label>
+                            <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">Cidade</label>
+                                <input type="text" class="form-control" id="localidade" required>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Cep</label>
+                                <input type="text" class="form-control" id="cep" placeholder="Cep" required  onChange="startEvent()" />
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Unidade federativa</label>
+                                <input type="text" class="form-control" id="uf" placeholder="Unidade federativa" required >
+                            </div>
+                        </div>
+
+                        <div class="p-3 mb-2 bg-primary text-white">Informações Adicionais</div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Informações Adicionais</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        </form>
+
+                                            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Salvar alterações
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Realizar as alterações</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Deseja salvar as alterações?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </body>
+
+                    </form>
+
