@@ -30,10 +30,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests c
 
 <img src="https://i.imgur.com/41ZaFOI.png" alt="GIF" data-canonical-src="https://i.imgur.com/41ZaFOI.png" style="max-width: 50%;">
 
-#  Como Usar
-- Clone este repositório para o seu ambiente local usando o seguinte comando:
-
-```shell
-git clone https://github.com/Romariolima99/Consulta-de-cep-API-VIA-CEP-.git
-
-
