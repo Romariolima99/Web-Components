@@ -23,11 +23,3 @@ Um card com informações relacionados a um perfil de rede social.
  <img src="https://i.imgur.com/JZHAiN9.png" alt="GIF" data-canonical-src="https://i.imgur.com/JZHAiN9.png" style="max-width: 50%;">
 
 Cada exemplo inclui o HTML e o CSS necessários para criar o card correspondente. Sinta-se à vontade para usá-los como base para seus próprios projetos ou para experimentar e personalizar conforme necessário.
-
-# Uso
-
-- Clone ou faça o download deste repositório para o seu computador.
-
-```js
-    git clone https://github.com/Romariolima99/Html-css-cards.git
- ```
