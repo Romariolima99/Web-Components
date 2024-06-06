@@ -22,11 +22,3 @@ Essa funcionalidade oferece uma opção de segurança adicional para os usuário
 ## Veja o Projeto: https://tela-de-login-html.netlify.app/
 
 <img src="https://i.imgur.com/ZIqxMas.png" alt="GIF" data-canonical-src="https://i.imgur.com/ZIqxMas.png" style="max-width: 50%;">
-
-# Instruções de Uso:
-
-1. Clone o repositório:
-
-```shell
-  git clone https://github.com/Romariolima99/tela-de-login-html
-
