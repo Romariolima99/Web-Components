@@ -31,12 +31,3 @@ Este projeto foi criado por Romário Lima.
 
 
 <img src="https://i.imgur.com/G10iaWm.png" alt="GIF" data-canonical-src="https://i.imgur.com/G10iaWm.png" style="max-width: 50%;">
-
-
-### Clone o repositório:
-
-```
-- git clone https://github.com/Romariolima99/Navbar-dashboard.git
-
- ```
-
