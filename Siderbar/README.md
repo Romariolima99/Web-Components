@@ -11,10 +11,6 @@ Estrutura flexível e fácil de personalizar para atender às suas necessidades.
 
 - Clone este repositório em sua máquina local:
 
-```js
-    git clone https://github.com/Romariolima99/Siderbar.git
- ```
-
 - Abra o arquivo index.html em seu navegador para visualizar o projeto.
 
 - Personalize o projeto conforme suas necessidades, modificando o HTML, CSS e JavaScript de acordo com sua aplicação.
