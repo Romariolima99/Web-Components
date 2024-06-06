@@ -16,14 +16,6 @@ Certifique-se de ter os seguintes arquivos em seu projeto:
 - `index.html`: A marcação HTML para os cards 3D.
 - `styles.css`: Estilos CSS para personalizar a aparência.
 
-## Uso
-
-1. Clone o repositório:
-
-```js
-   git clone https://github.com/Romariolima99/Card_3D.git
-
- ```
 <img src="https://i.imgur.com/UnzvdLZ.png" alt="GIF" data-canonical-src="https://i.imgur.com/UnzvdLZ.png" style="max-width: 50%;">
 
 # Design Responsivo
