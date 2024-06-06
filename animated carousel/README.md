@@ -19,11 +19,4 @@ Certifique-se de ter os seguintes arquivos em seu projeto:
 - `main.js`: JavaScript para adicionar interatividade.
 - `assets`: pasta com as imagens utilizadas no projeto.
 
-## Uso
-
-1. Clone o repositório:
-
-   ```shell
-   git clone https://github.com/Romariolima99/carousel-animado
-
 <img src="https://i.imgur.com/JTfT3Jf.png" alt="GIF" data-canonical-src="https://i.imgur.com/JTfT3Jf.png" style="max-width: 50%;">
