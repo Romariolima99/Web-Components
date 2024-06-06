@@ -22,11 +22,3 @@ A tela de login será exibida, com campos para usuário e senha, além de um bot
 - Espero que este README seja útil para o seu projeto de tela de login!
 
 <img src="https://i.imgur.com/O87hCzo.jpg" alt="GIF" data-canonical-src="https://i.imgur.com/O87hCzo.jpg" style="max-width: 50%;">
-
-# Instruções de Uso.
-
-- Faça o download ou clone este repositório para o seu computador.
-Navegue até a pasta do projeto.
-
-```shell
-     git clone https://github.com/Romariolima99/Tela-de-login
